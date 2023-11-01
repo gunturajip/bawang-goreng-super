@@ -190,6 +190,18 @@
 	font-size: 16px;
 	font-weight: 400;
 }
+#contact-container {
+	display: flex;
+	gap: 72px;
+	justify-content: space-around;
+	align-items: center;
+	padding: 0 48px;
+}
+#contact-container .right-container {
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+}
 
 .hero {
 	display: flex;

@@ -89,20 +89,30 @@
 
 #products {
 	display: flex;
-	padding: 128px 0 0 48px;
+	padding: 128px 0 0 0;
 	flex-direction: column;
 	justify-content: space-around;
 	margin: auto 0;
 	text-align: center;
-	align-items: center;
 	border-radius: 0 0 50% 50%;
 }
 #products-title {
 	font-size: 30px;
 	font-weight: 500;
 }
+#products-container {
+	white-space: nowrap;
+	padding: 48px 0 0 48px;
+	overflow-x: scroll;
+}
+#products-container #products-content {
+	display: inline-block;
+	margin-right: 112px;
+	width: 300px;
+	height: 300px;
+}
 #products-cta {
-	margin-top: 48px;
+	margin: 48px auto 0 auto;
 	padding: 12px 49px;
 	border-radius: 40px;
 	background-color: var(--button-color);
@@ -140,8 +150,8 @@
 	margin-bottom: 128px;
 }
 
-#mitra {
-	background-image: url(../img/mitra.png);
+#reseller {
+	background-image: url(../img/reseller.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	display: flex;
@@ -152,18 +162,18 @@
 	text-align: center;
 	align-items: center;
 }
-#mitra-title {
+#reseller-title {
 	font-size: 30px;
 	font-weight: 500;
 	color: var(--primary-color);
 }
-#mitra-desc {
+#reseller-desc {
 	padding: 32px 0 48px 0;
 	color: var(--primary-color);
 	font-size: 16px;
 	font-weight: 400;
 }
-#mitra-cta {
+#reseller-cta {
 	padding: 12px 49px;
 	border-radius: 40px;
 	background-color: var(--button-color);
